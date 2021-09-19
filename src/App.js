@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black h-auto">
       <BrowserRouter>
         <Switch>
           <Route path="/" exact>

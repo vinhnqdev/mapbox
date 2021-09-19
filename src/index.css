@@ -20,3 +20,17 @@
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
 }
+
+/* Global CSS for Carousel */
+
+.slide-visible .slide-backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slide-current .slide-backdrop {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.slide-current {
+  transform: scale(0.7) !important;
+}
