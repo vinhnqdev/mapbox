@@ -11,15 +11,14 @@ function SectionWithAImage({
 }) {
   return (
     <section
-      className={`mt-20 space-y-10 max-w-screen-xl mx-auto flex flex-col ${
-        !tag && "md:-mx-4"
+      className={`mt-20 space-y-10 max-w-screen-xl mx-auto flex flex-col gap-x-4
       } ${rowAtXlSize ? "xl:space-y-0" : "md:space-y-0"} ${
         rowAtXlSize ? "lg:flex-row" : "md:flex-row"
       } ${tag && "bg-modern-gray pl-10 pt-16 rounded-2xl overflow-hidden"}`}
     >
       {/* Left */}
       <div
-        className={`space-y-5 w-full max-w-screen-sm md:px-4 ${
+        className={`space-y-5 w-full max-w-screen-sm ${
           reverse && !rowAtXlSize && "md:order-1"
         } ${reverse && rowAtXlSize && "lg:order-1"}`}
       >
@@ -59,7 +58,7 @@ function SectionWithAImage({
       </div>
 
       {/* Right */}
-      <div className={`md:px-4 ${rowAtXlSize ? "lg:w-11/12" : "md:w-11/12"}`}>
+      <div className={`${rowAtXlSize ? "xl:w-11/12" : "md:w-11/12"}`}>
         <img src={image} alt="" />
       </div>
     </section>
