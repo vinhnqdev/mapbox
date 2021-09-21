@@ -16,6 +16,7 @@ import dataImage from "../assets/images/mains/data.jpeg";
 import atlasImage from "../assets/images/mains/atlas.jpeg";
 import straightImage from "../assets/images/mains/straight.jpeg";
 import CardContent from "../components/CardContent";
+import Footer from "../components/UI/Footer";
 
 //https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6076f540d539fa8c97126f0b_straigtaway.svg
 
@@ -104,6 +105,8 @@ function HomePage() {
       </main>
 
       {/* Footer */}
+
+      <Footer />
     </Fragment>
   );
 }

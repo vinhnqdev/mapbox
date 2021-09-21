@@ -2,7 +2,7 @@ import React from "react";
 
 function CardContent() {
   return (
-    <section className="my-20 max-w-screen-xl mx-auto bg-modern-gray rounded-2xl">
+    <section className="my-20 max-w-screen-xl mx-auto bg-modern-gray rounded-2xl md:mt-20 md:mb-28 lg:mb-32">
       <div className="py-14 px-10 text-center space-y-5 md:py-16 lg:py-20">
         <h2 className="text-white text-2xl font-bold sm:text-3xl lg:text-4xl leading-none">
           Ready to get started?

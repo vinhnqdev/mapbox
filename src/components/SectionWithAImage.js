@@ -50,7 +50,7 @@ function SectionWithAImage({
         <div>
           <a
             href=""
-            className="text-white text-sm py-2 px-3 border border-gray-300 rounded-full sm:text-base lg:text-lg inline-block lg:mt-1"
+            className="text-white text-sm py-2 px-4 border border-gray-300 rounded-full sm:text-base lg:text-lg inline-block lg:mt-1 lg:px-5"
           >
             {linkText} &#x2192;
           </a>
@@ -58,7 +58,9 @@ function SectionWithAImage({
       </div>
 
       {/* Right */}
-      <div className={`${rowAtXlSize ? "xl:w-11/12" : "md:w-11/12"}`}>
+      <div
+        className={`${rowAtXlSize ? "xl:w-11/12" : "md:w-11/12"} self-center`}
+      >
         <img src={image} alt="" />
       </div>
     </section>
