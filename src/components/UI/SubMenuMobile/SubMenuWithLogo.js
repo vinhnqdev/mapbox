@@ -8,7 +8,7 @@ const SubMenuWithLogo = React.forwardRef(({ data, maxHeight }, ref) => {
     >
       <ul className="space-y-4 py-5">
         {data?.map((subItem) => (
-          <li className="flex space-x-4">
+          <li key={subItem.heading} className="flex space-x-4">
             {/* Left Side */}
             <div className="p-1 bg-blue-100 rounded-full">
               <img src={subItem.iconUrl} alt="" className="h-8" />

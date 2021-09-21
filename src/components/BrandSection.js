@@ -30,8 +30,14 @@ function BrandSection() {
       </div>
 
       <div className="text-center">
-        <a href="" className="text-primary text-sm md:text-sm">
-          View custom stories &#x2192;
+        <a
+          href=""
+          className="text-primary text-sm md:text-sm inline-block group hover:text-primary-light"
+        >
+          View custom stories{" "}
+          <span className="ml-1 transition transform inline-block group-hover:translate-x-1">
+            &#x2192;
+          </span>
         </a>
       </div>
     </section>

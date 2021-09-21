@@ -24,11 +24,11 @@
 /* Global CSS for Carousel */
 
 .slide-visible .slide-backdrop {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .slide-current .slide-backdrop {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .slide-current {

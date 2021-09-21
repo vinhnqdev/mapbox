@@ -25,10 +25,8 @@ function HomePage() {
     <Fragment>
       {/* Header */}
       <Header />
-
       {/* Hero */}
       <Hero />
-
       {/* Banner */}
       <Banner />
 
@@ -103,9 +101,7 @@ function HomePage() {
 
         <CardContent />
       </main>
-
       {/* Footer */}
-
       <Footer />
     </Fragment>
   );

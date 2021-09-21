@@ -1,8 +1,6 @@
 import React from "react";
 
 const SubMenuBasic = React.forwardRef(({ data, maxHeight }, ref) => {
-  console.log(maxHeight);
-
   //   ${
   //     maxHeight ? `max-h-[${maxHeight}px] py-5 space-y-4` : "max-h-0"
   //   }`}

@@ -11,7 +11,7 @@ function Hero() {
           Precise location data and powerful developer tools to change the way
           we navigate the world.
         </p>
-        <button className="text-white bg-primary rounded-full py-2 px-5 cursor-pointer text-sm sm:text-md mt-5 font-nomal hover:bg-primary-light xl:mt-8 xl:text-lg xl:font-light">
+        <button className="text-white bg-primary rounded-full py-2 px-5 cursor-pointer transition text-sm sm:text-md mt-5 font-nomal hover:bg-primary-light xl:mt-8 xl:text-lg xl:font-light xl:px-7 xl:py-3">
           Start mapping for free
         </button>
       </div>
