@@ -38,32 +38,31 @@ function Header() {
       </div>
 
       {/* Menu Toogle when clicking menuICon */}
-      <div className={`absolute left-4 right-4 top-full`}>
-        <ul
-          className={`bg-gray-100 px-6 py-4 rounded-xl transition transform origin-top duration-300 max-h-screen overflow-y-scroll scrollbar-hide ${
-            !isShownMenu && "opacity-0 scale-y-0 lg:hidden"
-          }`}
+
+      <ul
+        className={`bg-gray-100 absolute left-4 right-4 top-full px-6 py-4 rounded-xl transition transform origin-top duration-300 max-h-screen overflow-y-scroll scrollbar-hide ${
+          !isShownMenu && "opacity-0 scale-y-0 lg:hidden"
+        }`}
+      >
+        <MenuItem
+          dataSubMenu={subMenuDataWithIcon}
+          subMenuIcon={true}
+          hasSubNav={true}
         >
-          <MenuItem
-            dataSubMenu={subMenuDataWithIcon}
-            subMenuIcon={true}
-            hasSubNav={true}
-          >
-            Products
-          </MenuItem>
-          <MenuItem dataSubMenu={subMenuDataBasic[0]} hasSubNav={true}>
-            Solution
-          </MenuItem>
-          <MenuItem dataSubMenu={subMenuDataBasic[1]} hasSubNav={true}>
-            Developers
-          </MenuItem>
-          <MenuItem dataSubMenu={subMenuDataBasic[2]} hasSubNav={true}>
-            Company
-          </MenuItem>
-          <MenuItem hasSubNav={false}>Pricing</MenuItem>
-          <MenuItem hasSubNav={false}>Blog</MenuItem>
-        </ul>
-      </div>
+          Products
+        </MenuItem>
+        <MenuItem dataSubMenu={subMenuDataBasic[0]} hasSubNav={true}>
+          Solution
+        </MenuItem>
+        <MenuItem dataSubMenu={subMenuDataBasic[1]} hasSubNav={true}>
+          Developers
+        </MenuItem>
+        <MenuItem dataSubMenu={subMenuDataBasic[2]} hasSubNav={true}>
+          Company
+        </MenuItem>
+        <MenuItem hasSubNav={false}>Pricing</MenuItem>
+        <MenuItem hasSubNav={false}>Blog</MenuItem>
+      </ul>
     </header>
   );
 }
