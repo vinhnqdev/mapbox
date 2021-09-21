@@ -50,9 +50,12 @@ function SectionWithAImage({
         <div>
           <a
             href=""
-            className="text-white text-sm py-2 px-4 border border-gray-300 rounded-full sm:text-base lg:text-lg inline-block lg:mt-1 lg:px-5"
+            className="text-white group text-sm py-2 px-4 border border-gray-300 rounded-full sm:text-base lg:text-lg inline-block lg:mt-1 lg:px-5 hover:border-primary-light hover:bg-primary-darkest"
           >
-            {linkText} &#x2192;
+            {linkText}
+            <span className="ml-1 transition transform inline-block group-hover:translate-x-1">
+              &#x2192;
+            </span>
           </a>
         </div>
       </div>

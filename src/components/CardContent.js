@@ -11,10 +11,10 @@ function CardContent() {
           Create an account or talk to one of our experts
         </p>
         <div className="flex flex-col items-center space-y-4 md:flex-row md:items-center md:justify-center md:space-y-0 md:space-x-3">
-          <button className="text-white rounded-full bg-primary-light text-sm px-4 py-2 sm:text-base">
+          <button className="text-white transition rounded-full bg-primary-dark text-sm px-4 py-2 sm:text-base hover:bg-primary-light">
             Sign up for free
           </button>
-          <button className="text-white rounded-full bg-transparent border border-gray-400 text-sm px-4 py-2 sm:text-base">
+          <button className="text-white rounded-full bg-transparent border border-gray-400 text-sm px-4 py-2 sm:text-base hover:border-primary-light hover:bg-primary-darkest">
             Contact sales
           </button>
         </div>

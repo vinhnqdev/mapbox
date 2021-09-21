@@ -13,7 +13,7 @@ function Banner() {
     switch (key) {
       case "BottomCenter":
         return {
-          bottom: "-20px",
+          bottom: "0px",
           zIndex: 20,
           cursor: "pointer",
         };
@@ -29,7 +29,7 @@ function Banner() {
       <Carousel
         wrapAround={true}
         autoplay={true}
-        autoplayInterval={5000}
+        autoplayInterval={3000}
         slidesToShow={3}
         opacityScale={0.9}
         animation="zoom"
@@ -42,10 +42,10 @@ function Banner() {
         renderBottomCenterControls={({ previousSlide, nextSlide }) => (
           <div className="flex items-center">
             <div className="cursor-pointer" onClick={previousSlide}>
-              <ChevronLeftIcon className="text-gray-500 h-9 px-2 py-1 md:h-12 xl:h-16 xl:text-gray-300" />
+              <ChevronLeftIcon className="text-gray-500 h-9 px-2 py-1 md:h-12 lg:h-12 xl:text-gray-400 transition hover:text-gray-200" />
             </div>
             <div className="cursor-pointer" onClick={nextSlide}>
-              <ChevronRightIcon className="text-gray-500 h-9 px-2 py-1 md:h-12 xl:h-16 xl:text-gray-300" />
+              <ChevronRightIcon className="text-gray-500 h-9 px-2 py-1 md:h-12 lg:h-12 xl:text-gray-400 transition hover:text-gray-200" />
             </div>
           </div>
         )}

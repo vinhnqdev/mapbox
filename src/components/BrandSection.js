@@ -13,7 +13,7 @@ import reverLogo from "../assets/images/brandlogo/brand-rever.svg";
 function BrandSection() {
   return (
     <section className="max-w-screen-lg mx-auto space-y-10">
-      <h4 className="text-white text-center uppercase text-xs sm:text-sm lg:text-base lg:font-medium">
+      <h4 className="text-white text-center uppercase text-xs lg:font-medium">
         Trusted by the industry leaders
       </h4>
       <div className="grid grid-cols-2 items-center justify-items-center gap-x-2 gap-y-7 sm:grid-cols-4 sm:gap-y-10 md:grid-cols-5">
@@ -30,7 +30,7 @@ function BrandSection() {
       </div>
 
       <div className="text-center">
-        <a href="" className="text-primary text-sm sm:text-base lg:text-lg">
+        <a href="" className="text-primary text-sm md:text-sm">
           View custom stories &#x2192;
         </a>
       </div>
