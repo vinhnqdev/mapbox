@@ -26,6 +26,10 @@ module.exports = {
       spacing: {
         100: "52rem",
       },
+      colors: {
+        "modern-gray": "#171B1E",
+        "main-bg": "#0E1012",
+      },
     },
     colors: {
       primary: {

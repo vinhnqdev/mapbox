@@ -5,7 +5,7 @@ import ErrorFallback from "./components/UI/ErrorFallback";
 
 function App() {
   return (
-    <div className="bg-black h-auto">
+    <div className="h-auto bg-main-bg">
       <BrowserRouter>
         <Switch>
           <ErrorBoundary FallbackComponent={ErrorFallback}>
